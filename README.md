@@ -2,12 +2,12 @@
 
 ```bash
 wget -q https://script.install.devinsideyou.com/direnv
-chmod +x direnv && sudo ./direnv
+sudo chmod +x direnv && ./direnv
 ```
 
 # Specifies [version](https://github.com/direnv/direnv/releases) (optional)
 
 ```bash
 wget -q https://script.install.devinsideyou.com/direnv
-chmod +x direnv && sudo ./direnv 2.20.0
+sudo chmod +x direnv && ./direnv 2.20.0
 ```
