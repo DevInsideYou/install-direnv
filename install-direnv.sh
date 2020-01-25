@@ -4,15 +4,8 @@
 rm $0
 
 FALLBACK_VERSION="2.20.0"
-
-if [ "$1" != "" ]; then
-    VERSION="$1"
-else
-    VERSION=$FALLBACK_VERSION
-fi
-
+VERSION="${1:-$FALLBACK_VERSION}"
 URL=https://github.com/direnv/direnv/releases/download/v$VERSION/direnv.linux-amd64
-
 TARGET=/usr/local/bin/direnv
 
 # install curl
