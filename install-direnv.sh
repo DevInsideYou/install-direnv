@@ -5,14 +5,14 @@ rm $0
 
 FALLBACK_VERSION="2.20.0"
 VERSION="${1:-$FALLBACK_VERSION}"
-URL=https://github.com/direnv/direnv/releases/download/v$VERSION/direnv.linux-amd64
+SOURCE=https://github.com/direnv/direnv/releases/download/v$VERSION/direnv.linux-amd64
 TARGET=/usr/local/bin/direnv
 
 # install curl
 sudo apt install -yqqq curl
 
 # install direnv
-sudo curl -L $URL -o $TARGET
+sudo curl -L $SOURCE -o $TARGET
 
 sudo chmod +x $TARGET
 
