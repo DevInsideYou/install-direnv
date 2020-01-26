@@ -3,7 +3,7 @@
 # remove yourself
 rm $0
 
-FALLBACK_VERSION="2.20.0"
+FALLBACK_VERSION="2.21.1"
 VERSION="${1:-$FALLBACK_VERSION}"
 SOURCE=https://github.com/direnv/direnv/releases/download/v$VERSION/direnv.linux-amd64
 TARGET=/usr/local/bin/direnv
