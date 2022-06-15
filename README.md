@@ -1,4 +1,4 @@
-# Installs [direnv 2.31.0](https://direnv.net/) on [Ubuntu](https://www.ubuntu.com/)
+# Installs [direnv 2.32.0](https://direnv.net/) on [Ubuntu](https://www.ubuntu.com/)
 
 ```bash
 wget -q https://script.install.devinsideyou.com/direnv
@@ -9,5 +9,5 @@ sudo chmod +x direnv && ./direnv
 
 ```bash
 wget -q https://script.install.devinsideyou.com/direnv
-sudo chmod +x direnv && ./direnv 2.31.0
+sudo chmod +x direnv && ./direnv 2.32.0
 ```
